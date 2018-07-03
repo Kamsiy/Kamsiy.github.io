@@ -1,0 +1,28 @@
+title: Kamsi Ibeziako
+description: Portfolio website for Kamsi Ibeziako
+baseurl: "/"
+url: "http:/Kamsiy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+social:
+  name: Kamsi Ibeziako
+  links:
+    - title: github
+      url: https://github.com/Kamsiy
+    - title: linkedin
+      url: https://www.linkedin.com/in/kamsi-ibeziako
+    - title: hackerrank
+      url: https://www.hackerrank.com/kamsiyoib
+    - title: twitter
+      url: https://twitter.com/Kamsi_ib
+    - title: email
+      url: mailto:kamsiyib@gmail.com
+
+# Build settings
+plugins:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _scss/
+  style: compressed
+
+exclude:
+  - README.md

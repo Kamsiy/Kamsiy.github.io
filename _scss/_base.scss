@@ -1,0 +1,69 @@
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    font-family: $main-font;
+    background: $ash;
+    text-rendering: optimizeLegibility;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+}
+section{
+    margin: 100px auto 0 auto !important;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 32px 0 16px 0;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+}
+
+h2{
+    line-height: 32px;
+    font-weight: 600;
+    margin-top: 32px;
+    &.sub{
+        margin-top: 0;
+        font-size: 20px;
+    }
+}
+h1, h2, h3, h4, h5 {
+    margin-bottom: 15px;
+}
+
+header {
+    height: 80px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+.main-container{
+    width: $screen-lg;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+
+    @media (max-width: $screen-lg) {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}

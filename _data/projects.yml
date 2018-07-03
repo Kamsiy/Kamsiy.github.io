@@ -1,0 +1,29 @@
+- title: ISEK Website
+  description: Website built for Iowa State Engineering Kids
+  year: 2018
+  category: Web Development
+
+- title: ISURC
+  description: Website for the iow state robotics club
+  year: 2018
+  category: Web Development
+
+- title: GPA Calculator
+  description: A basic GPA calculator to help students at Iowa State University.
+  year: 2017
+  category: Web Development
+
+- title: CO2 Emissions
+  description: A visualization of CO2 Emissions by country
+  year: 2018
+  category: Data Visualization
+
+- title: Sign Language Translator
+  description: Application to translate sign language to text
+  year: 2018
+  category: Machine Learning
+
+- title: Red Runner 
+  description: Red runner game built with Godot Engine
+  year: 2018
+  category: Game Development

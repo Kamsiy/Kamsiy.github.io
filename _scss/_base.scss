@@ -1,6 +1,5 @@
 
 html {
-    line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     font-family: $main-font;
     background: $ash;
@@ -33,20 +32,19 @@ h2{
         font-size: 20px;
     }
 }
+h3{
+    margin: 0;
+}
 h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
-}
-
-header {
-    height: 80px;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
 }
 
 a {
     text-decoration: none;
     color: $black;
 }
+
+// custom bootstrap
 .main-container{
     width: $screen-lg;
     margin: 0 auto;
@@ -60,10 +58,64 @@ a {
         box-sizing: border-box;
     }
 }
+.block{
+    display: block;
+}
+.center{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.text-center{
+    text-align: center;
+}
+// container for floating content
+.container{
+    overflow: hidden;
+}
 
 .left{
     float: left;
 }
 .right{
     float: right;
+}
+.sub{
+    color: $gray;
+    font-weight: 400;
+}
+.sub-2{
+    color: #268bd2;
+    margin: 0;
+    // font-weight: 400;
+}
+.btn{
+    color: white;
+    background: #268bd2;
+    border-bottom: 2px solid #227ab9;
+    border-radius: 5px;
+    padding: 9px;
+}
+.underline, .underline2{
+    background: $lightgray;
+    width: 50px;
+    height: 2px;
+    display: block;
+    margin: 32px 0 48px 0;
+}
+.underline2{
+    margin: 20px 0;
+}
+.underline-d{
+    background: $lightgray;
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.link{
+    &:hover{
+        text-decoration: underline;
+    }
+    color: #268bd2;
 }

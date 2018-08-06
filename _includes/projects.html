@@ -6,7 +6,7 @@
     {% assign array = site.data.projects | reverse: %}
     {% assign  num = 0 %}
     {% for int in (1..2) %}
-    <div class="row">
+    <div class="row" style="margin: 0 -1rem;">
       {% for i in site.data.projects reversed%}
       {% if num  == 6%}
         {% break %}

@@ -43,7 +43,11 @@ a {
     text-decoration: none;
     color: $black;
 }
-
+img{
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+}
 // custom bootstrap
 .main-container{
     width: $screen-lg;

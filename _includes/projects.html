@@ -3,19 +3,18 @@
     <h1>Kamsi Ibeziako</h1>
     <h2 class="sub">Computer Science Portfolio</h2>
     <span class="underline"></span>
-    {% assign array = site.data.projects | reverse: %}
+    {% assign array = site.data.projects%}
     {% assign  num = 0 %}
     {% for int in (1..2) %}
     <div class="row" style="margin: 0 -1rem;">
-      {% for i in site.data.projects reversed%}
+      {% for i in site.data.projects %}
       {% if num  == 6%}
         {% break %}
       {%endif%}
       <div class="row-content">
-        <a href="">
+        <a target="_blank" href="{{array[num].link}}">
           <div class="project-box">
-            <div class="img">
-              <img src="" alt="">
+            <div class="img" style="background: {{array[num].color}} url({{array[num].preview}}) center bottom no-repeat; background-size: 280px">
             </div>
             <div class="body">
                 <div class="heading">{{array[num].title}}</div>

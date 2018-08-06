@@ -16,12 +16,21 @@
         @media screen and (min-width: $screen-lg){
             flex-basis:33.333%;
         }
+
+        @media (min-width:$screen-md) and (max-width:$screen-lg){
+            flex-basis: 50%;
+        }
         
         .project-box{
+            &:hover{
+                box-shadow: 0 20px 30px rgba(0,0,0,.12);
+                transform: translate(0px, -10px);
+                z-index: -100000;
+            }
             box-shadow: 0 20px 20px rgba(0,0,0,.08);
-            transition: all 200ms cubic-bezier(.02, .01, .47, 1);
+            transition: all 200ms cubic-bezier(.25,.1,.25,1);
             width: 100%;
-            height: 340px;
+            height: 370px;
             margin: 10px 0;
             text-align: left;
             background: white;
@@ -38,7 +47,7 @@
             .body{
                 padding: 20px;
                 .content{
-                    height: 50px;
+                    height: 80px;
                 }
                 .heading{
                     font-size: 20px;

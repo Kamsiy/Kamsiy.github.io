@@ -22,21 +22,21 @@
   preview: ./assets/img/preview3.png
   color: "#F4DEC3"
 
-- title: Pixel News theme
-  description: A Jekyll blog theme created primarily for video game bloggers and indie developers. in progress ....
-  year: 2018
-  category: Web Development
-  color: "#444"
+# - title: Pixel News theme
+#   description: A Jekyll blog theme created primarily for video game bloggers and indie developers. in progress ....
+#   year: 2018
+#   category: Web Development
+#   color: "#444"
 
-- title: Naruto Hand Signs
-  description: A program that recognizes different naruto hand signs. in progress ....
-  year: 2018
-  category: Machine Learning
-  preview: ./assets/img/preview4.png
-  color: "#F0ABBB"
+# - title: Naruto Hand Signs
+#   description: A program that recognizes different naruto hand signs. in progress ....
+#   year: 2018
+#   category: Machine Learning
+#   preview: ./assets/img/preview4.png
+#   color: "#F0ABBB"
 
-- title: Red Runner 
-  description: A remake of the Red runner game using the Godot game engine. Fall 2018 Game jam project. in progress...
-  year: 2018
-  category: Game Development
-  color: "#444"
+# - title: Red Runner 
+#   description: A remake of the Red runner game using the Godot game engine. Fall 2018 Game jam project. in progress...
+#   year: 2018
+#   category: Game Development
+#   color: "#444"

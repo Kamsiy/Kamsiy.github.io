@@ -95,8 +95,9 @@ img{
 .btn{
     color: white;
     background: #268bd2;
-    border-bottom: 2px solid #227ab9;
-    border-radius: 5px;
+    border-left: 3px solid #227ab9;
+    border-bottom: 4px solid #227ab9;
+    border-radius: 6px;
     padding: 9px;
 }
 .underline, .underline2{
@@ -122,4 +123,7 @@ img{
         text-decoration: underline;
     }
     color: #268bd2;
+}
+li{
+    max-width: 550px;
 }

@@ -1,3 +1,17 @@
+- title: Super Smash Bros. Matchups
+  description: A react application that compares two selected characters from super smash bros. ultimate.
+  year: 2019
+  category: Web Development
+  link: https://ssbm.netlify.com/
+  preview: ./assets/img/preview5.png
+  color: "#8CE0ED"
+# - title: 363 Final Project
+#   description: A Database Application
+#   year: 2018
+#   category: Relational Database
+#   link: https://ssbm.netlify.com/
+#   # preview: ./assets/img/preview5.png
+#   color: "#f9f9f9"
 - title: ISURC
   description: Website built for the robotics club at Iowa State University
   year: 2018

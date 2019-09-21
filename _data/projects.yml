@@ -1,3 +1,11 @@
+- title: Boa Python Api
+  description: python api for the boa framework
+  year: 2019
+  category: Research
+  link: boa
+  preview: ./assets/img/preview6.png
+  color: "#E91313"
+
 - title: Super Smash Bros. Matchups
   description: A react application that compares two selected characters from super smash bros. ultimate.
   year: 2019

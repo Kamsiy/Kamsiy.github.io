@@ -106,3 +106,36 @@
     }
     
 }
+#boa{
+    // h3:not(:first-of-type){
+    //     margin-top: 40px;
+    // }
+    .code-box{
+        background: #eeffcc;
+        padding: 20px;
+        margin-bottom: 40px;
+        border-radius: 5px;
+        font-family: monospace;
+        border: 1px solid #ac9;
+
+        .keyword{
+            color:#007020;
+            display: block;
+            font-weight: bold;
+        }
+        .comment{
+            // color:#4070a0;
+            // font-style: italic;
+            display: block;
+        }
+        .code{
+            display: block;
+            &::before{
+                // content: '>>> ';
+            }
+        }
+        .indent{
+            padding-left: 35px;
+        }
+    }
+}

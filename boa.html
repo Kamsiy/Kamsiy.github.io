@@ -1,0 +1,224 @@
+---
+layout: default
+title: projects
+---
+
+<section id="boa">
+    <div class="main-container" style="padding-top:8px;">
+        <h1>Boa Python Api</h1>
+        <h2 class="sub">A python api that will let users write queries using boa</h2>
+        <span class="underline"></span>
+
+
+        <h3><a href="https://github.com/boalang/api-python" style="color:#4070a0;">Link to project</a></h3>
+        <h2>Available Methods</h2>
+
+        <h3>Installing Package</h3>
+        <div class="code-box">
+            <span class="comment"># In Terminal</span>
+            <span class="code">>>> pip install boa-api</span>
+        </div>
+
+        <h3>login</h3>
+        <div class="code-box">
+            <span class="keyword">Description:</span>
+            <span class="comment">log into the boa framework using the remote api</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment">username (`str): username for boa account</span>
+            <span class="comment">password (`str): password for boa account</span>
+            <span class="keyword">Returns:</span>
+            <span class="comment"></span>
+        </div>
+        
+        <h3>datasets</h3>
+        <div class="code-box">
+            <span class="keyword">Description:</span>
+            <span class="comment">Retrieves datasetsets currently provided by boa</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment"></span>
+            <span class="keyword">Returns:</span>
+            <span class="comment">(`list): a list of boa datasets</span>
+        </div>
+        
+        <h3>close</h3>
+        <div class="code-box">
+            <span class="keyword">Description:</span>
+            <span class="comment">Log out of the boa framework using the remote api</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment"></span>
+            <span class="keyword">Returns:</span>
+            <span class="comment"></span>
+        </div>
+        
+        <h3>dataset_names</h3>
+        <div class="code-box">
+            <span class="keyword">Description</span>
+            <span class="comment">Retrieves a list of names of all datasets provided by boa</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment"></span>
+            <span class="keyword">Returns:</span>
+            <span class="comment">(`list): the names of available datasets</span>
+        </div>
+
+        <h3>get_dataset</h3>
+        <div class="code-box">
+            <span class="keyword">Description:</span>
+            <span class="comment">Retrieves a dataset given a name.</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment">name (`str): The name of the input dataset to return.</span>
+            <span class="keyword">Returns:</span>
+            <span class="comment">(`dict): a dictionary with the keys id and name</span>
+        </div>
+
+        <h3>last_job</h3>
+        <div class="code-box">
+            <span class="keyword">Description:</span>
+            <span class="comment">Retrieves the most recently submitted job</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment"></span>
+            <span class="keyword">Returns:</span>
+            <span class="comment">(`job_handle): the last submitted job</span>
+        </div>
+        
+        <h3>job_count</h3>
+        <div class="code-box">
+            <span class="keyword">Description:</span>
+            <span class="comment">Retrieves the number of jobs submitted by a user</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment">pub_only (`bool, optional): if true, return only public jobs
+                    otherwise return all jobs</span>
+            <span class="keyword">Returns:</span>
+            <span class="comment">(`int) the number of jobs submitted by a user</span>
+        </div>
+
+        <h3>query</h3>
+        <div class="code-box">
+            <span class="keyword">Description:</span>
+            <span class="comment">Submits a new query to Boa to query the specified and returns a handle to the new job.</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment">query (str): a boa query represented as a string.</span>
+            <span class="comment">dataset (str, optional): the name of the input dataset.</span>
+            <span class="keyword">Returns:</span>
+            <span class="comment">(`job_handle): the job with the generated from the given query</span>
+        </div>
+
+        <h3>get_job</h3>
+        <div class="code-box">
+            <span class="keyword">Description:</span>
+            <span class="comment">Retrieves a job given an id.</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment">id (int): the id of the job you want to retrieve </span>
+            <span class="keyword">Returns:</span>
+            <span class="comment">(`job_handle): the desired job.</span>
+        </div>
+        
+        <h3>job_list</h3>
+        <div class="code-box">
+            <span class="keyword">Description</span>
+            <span class="comment"></span>
+            <span class="keyword">Parameters</span>
+            <span class="comment">pub_only (`bool, optional): if true, only return public jobs otherwise return all jobs</span>
+            <span class="comment">offset  (`int, optional): the starting offset</span>
+            <span class="comment">length (`int, optional): the number of jobs (at most) to return</span>
+            <span class="keyword">Returns:</span>
+            <span class="comment">list: a list of jobs</span>
+        </div>
+
+        <h3>stop</h3>
+        <div class="code-box">
+            <span class="keyword">Description</span>
+            <span class="comment">Stops the execution of a job</span>
+            <span class="keyword">Parameters:</span>
+            <span class="comment">(`job_handle): the job whose execution you want to stop</span>
+        </div>
+
+        <h3>resubmit</h3>
+        <div class="code-box">
+                <span class="keyword">Description</span>
+                <span class="comment">Resubmits a job to the framework</span>
+                <span class="keyword">Parameters:</span>
+                <span class="comment">job (`job_handle)</span>
+        </div>
+
+        <h3>delete</h3>
+        <div class="code-box">
+                <span class="keyword">Description</span>
+                <span class="comment">Deletes this job from the framework.</span>
+                <span class="keyword">Parameters:</span>
+                <span class="comment">job (`job_handle)</span>
+                <span class="keyword">Returns:</span>
+                <span class="comment"></span>
+        </div>
+
+        <h3>set_public</h3>
+        <div class="code-box">
+                <span class="keyword">Description</span>
+                <span class="comment">Modifies the public/private status of this job.</span>
+                <span class="keyword">Parameters:</span>
+                <span class="comment">is_public (bool): 'True' to make it public, False to make it private</span>
+                <span class="comment">job (`job_handle)</span>
+                <span class="keyword">Returns:</span>
+                <span class="comment"></span>
+        </div>
+
+        <h3>public_status</h3>
+        <div class="code-box">
+                <span class="keyword">Description</span>
+                <span class="comment">Return the jobs public/private status.</span>
+                <span class="keyword">Parameters:</span>
+                <span class="comment">job (`job_handle)</span>
+                <span class="keyword">Returns:</span>
+                <span class="comment"></span>
+        </div>
+
+        <h3>get_url</h3>
+        <div class="code-box">
+                <span class="keyword">Description</span>
+                <span class="comment">Retrieves the jobs URL.</span>
+                <span class="keyword">Parameters:</span>
+                <span class="comment">job (`job_handle)</span>
+                <span class="keyword">Returns:</span>
+                <span class="comment"></span>
+        </div>
+
+        <h3>public_url</h3>
+        <div class="code-box">
+                <span class="keyword">Description</span>
+                <span class="comment">Get the jobs public page URL.</span>
+                <span class="keyword">Parameters:</span>
+                <span class="comment">job (`job_handle)</span>
+                <span class="keyword">Returns:</span>
+                <span class="comment"></span>
+        </div>
+
+        <h3>get_compiler_errors</h3>
+        <div class="code-box">
+                <span class="keyword">Description</span>
+                <span class="comment">Return the output for this job, if it finished successfully and has an output.</span>
+                <span class="keyword">Parameters:</span>
+                <span class="comment">job (`job_handle)</span>
+                <span class="keyword">Returns:</span>
+                <span class="comment"></span>
+        </div>
+
+        <h3>source</h3>
+        <div class="code-box">
+                <span class="keyword">Description</span>
+                <span class="comment">Return the source query for this job.</span>
+                <span class="keyword">Parameters:</span>
+                <span class="comment">job (`job_handle)</span>
+                <span class="keyword">Returns:</span>
+                <span class="comment"></span>
+        </div>
+
+        <h3>output</h3>
+        <div class="code-box">
+                <span class="keyword">Description</span>
+                <span class="comment">Return the output for this job, if it finished successfully and has an output.</span>
+                <span class="keyword">Parameters:</span>
+                <span class="comment">job (`job_handle)</span>
+                <span class="keyword">Returns:</span>
+                <span class="comment"></span>
+        </div>
+    </div>
+</section>

@@ -1,3 +1,19 @@
+- title: Salus
+  description: Security Automation tool that helps coordinate running multiple security scanners at coinbase
+  year: 2022
+  category: Coinbase
+  link: https://kamsiibeziako.com/salus
+  preview: ./assets/img/preview7.png
+  color: "#A63C58"
+
+- title: One Music
+  description: A website that transfers playlists from Spotify to Apple music
+  year: 2020
+  category: Web Development
+  link: https://umaabu.com/spotifytoapplemusic
+  preview: ./assets/img/preview4.png
+  color: "#CCC"
+
 - title: Boa Python Api
   description: python api for the boa framework
   year: 2019
@@ -13,13 +29,7 @@
   link: https://ssbm.netlify.com/
   preview: ./assets/img/preview5.png
   color: "#8CE0ED"
-# - title: 363 Final Project
-#   description: A Database Application
-#   year: 2018
-#   category: Relational Database
-#   link: https://ssbm.netlify.com/
-#   # preview: ./assets/img/preview5.png
-#   color: "#f9f9f9"
+
 - title: ISURC
   description: Website built for the robotics club at Iowa State University
   year: 2018
@@ -43,22 +53,3 @@
   link: https://kamsiibeziako.com/gpa-calculator
   preview: ./assets/img/preview3.png
   color: "#F4DEC3"
-
-# - title: Pixel News theme
-#   description: A Jekyll blog theme created primarily for video game bloggers and indie developers. in progress ....
-#   year: 2018
-#   category: Web Development
-#   color: "#444"
-
-# - title: Naruto Hand Signs
-#   description: A program that recognizes different naruto hand signs. in progress ....
-#   year: 2018
-#   category: Machine Learning
-#   preview: ./assets/img/preview4.png
-#   color: "#F0ABBB"
-
-# - title: Red Runner 
-#   description: A remake of the Red runner game using the Godot game engine. Fall 2018 Game jam project. in progress...
-#   year: 2018
-#   category: Game Development
-#   color: "#444"
